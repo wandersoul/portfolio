@@ -5,7 +5,7 @@
                 <!-- Terms of Use-->
                 <a href="#">Terms of Use</a>
                 <!-- Privacy Policy -->
-                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
         </footer>
     </body>
 </html>
