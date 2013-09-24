@@ -5,7 +5,14 @@
     require_once('header.php');
 ?>
 <!-- Keep Connected -->
-
+<section id="keep_connected">
+    <!-- Facebook -->
+    <a href=""><img src="" /></a>
+    <!-- Twitter -->
+    <a href=""><img src="" /></a>
+    <!-- GitHub -->
+    <a href=""><img src="" /></a>
+</section>
 <!-- Contact Form to email student account -->
 <?php
 if(isset($_POST['submit'])){

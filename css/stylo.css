@@ -1,12 +1,40 @@
 /* 
     Document   : stylo
-    Created on : 16-Sep-2013, 12:42:58 PM
-    Author     : Marc
+    Created on : Sept 18th
+    Author     : Marc Anderson 200235076
     Description:
         style the portfolio website with Style Which Augments Grooviness
 */
 
-root { 
-    display: block;
+body {
+    width:100%;
+}
+/****************************NAV LINKS********************/
+nav{
+    width:100%;
+    /*position:fixed;*/
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li a{
+    
+}
+/****************Featured work slider********************/
+#keep_connected{
+    
+}
+/****************KEEP CONNECTED PANEL********************/
+#keep_connected{
+    
 }
 
+/********************FOOTER******************************/
+footer p{
+    display:inline;
+}
