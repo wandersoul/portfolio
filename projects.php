@@ -6,7 +6,7 @@
     require_once('connect_vars.php')
 ?>
 <!-- Image links for Project pages -->
-<section>
+<section class="main">
     <h2>Projects I have completed</h2>
     <figure>
         <a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/trading_card/"><img src="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/image/trading_card.png" alt="Image of Trading Card Project" /></a>

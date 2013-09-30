@@ -4,7 +4,7 @@
     // Insert the page header
     require_once('header.php');
 ?>
-<section>
+<section class="main">
     <h2>pri·va·cy</h2>
     <p><em>Noun</em></p>
     <p>The quality or condition of being secluded from the presence or view of others.</p>

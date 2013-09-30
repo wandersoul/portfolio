@@ -6,7 +6,6 @@ $projects = "/~200235076/AdvWebPro/portfolio/projects.php";
 $services = "/~200235076/AdvWebPro/portfolio/services.php";
 $contact = "/~200235076/AdvWebPro/portfolio/contact.php";
 
-
 // Generate the permanent navigation menu, match each url against 
 echo '<nav>';
     echo '<ul>';
@@ -49,6 +48,13 @@ echo '<nav>';
             {echo ' class="current"';} //if it does, give it class "current"
         //finish the rest of the nav link
         echo'><a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/contact.php">Contact</a></li>';
+        
+                
+        //GitHub
+        echo '<li';
+        //finish the rest of the nav link
+        echo'><a href="https://github.com/wandersoul">GitHub</a></li>';        
+               
         
     echo '</ul>';
 echo '</nav>';

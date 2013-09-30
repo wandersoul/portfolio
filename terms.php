@@ -5,7 +5,7 @@
     require_once('header.php');
 ?>
 <!-- Super Generic ToS agreement borrowed from http://www.bennadel.com/coldfusion/privacy-policy-generator.htm -->
-<section>
+<section class="main">
     <h2>
             Generic Web Site Terms and Conditions of Use
     </h2>

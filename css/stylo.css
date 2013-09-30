@@ -4,37 +4,312 @@
     Author     : Marc Anderson 200235076
     Description:
         style the portfolio website with Style Which Augments Grooviness
+
+Common Colour Scheme:
+Main background:#16DE01
+Text Color:#000000
+Darker green:#3D8835
+Darkest green:#0A6500
+Lighter Green:#4FEF3E
+pale green:#E3FFE5
+Contrasting red:#FC010E
 */
 
 body {
     width:100%;
+    background-color: #16DE01;
+    font-family: "Times New Roman", Times, serif;
+    margin:0%;
+}
+header{
+    height:10%;
+    margin-top: none;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    background-color:#16DE01;
+}
+section.main{
+    margin-top: none;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    background-color:#E3FFE5;
+    border-style: solid;
+    border-color:#3D8835;
+    border-width:1.5em;
+    border-radius: 1em;
+}
+img{
+    border-style:none;
+}
+/****************************HEADER********************/
+header{
+    margin-left: 30%;
+    margin-right:30%;
+}
+header img, h1{
+    display:inline;
 }
 /****************************NAV LINKS********************/
 nav{
     width:100%;
     /*position:fixed;*/
+    margin:0%;
+    margin-top:3%;
 }
 nav ul{
     list-style-type:none;
     margin:0;
     padding:0;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 nav ul li{
+    width:20%;
+    margin-bottom: 0px;
     display:inline;
+    padding:2%;
+    padding-bottom: 0%;
+    background-color:#3D8835;
+    overflow: hidden;
 }
-nav ul li a{
-    
+nav ul li.current{
+    width:20%;
+    margin-bottom: 0px;
+    display:inline;
+    padding:2%;
+    padding-bottom: 0%;
+    background-color:#E3FFE5;
+    overflow: hidden;
 }
-/****************Featured work slider********************/
-#keep_connected{
-    
+
+nav ul li.current a:link /* unvisited link */
+{   color:#000000;
+    margin:0;
+    padding:0;
+    text-decoration:none;
 }
+nav ul li.current a:visited /* visited link */
+{   color:#000000;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+
+nav ul li a:link /* unvisited link */
+{   color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;}
+nav ul li a:visited /* visited link */
+{   color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;}
+nav ul li a:hover /* mouse over link */
+{   color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;}
+nav ul li a:active /* selected link */
+{   color:#FFFFFF;
+    margin:0;
+    padding:0;}
+/********************INDEX*******************************/
+#main{
+    text-align: center;
+}
+
+#welcome{
+    font:2em;
+    text-decoration: underline;
+}
+.view_more{
+    float:right;
+    width:15%;
+    border-style:solid;
+    border-width:1%;
+    border-color:#4FEF3E;
+    background-color:#0A6500; 
+    padding:1%
+}
+.view_more a:link{
+    color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.view_more a:hover{
+    color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.view_more a:selected{
+    color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.view_more a:visited{
+    color:#FFFFFF;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+
+#right{
+    float:right;
+}
+
+
 /****************KEEP CONNECTED PANEL********************/
 #keep_connected{
-    
+    clear:left;
+    width:30%;
+    border-style:groove;
+    border-width:medium;
 }
+/****************CONTACT*******************************/
+label {
+    width:10em;
+    text-align:right;
+    font-weight:bold;
+    float:left;
+    display:block;
+    clear:left;
+}
+span.req{
+    color:#7cbb00;
+    display:block;
+    font:italic small-caps 0.85em Verdana, Geneva, sans-serif;
+    width:10em;
+    text-align:right;
+    float:right;
+}
+input{
+    float:left;
+    width:16em;
+    margin: 0em 0.5em 1em 0.5em;
+    font-size:1.25em;
+}
+textarea{
+    float:left;
+    width:16em;
+    margin: 0em 0.5em 1em 0.5em;
+    font-size:1.25em;
+}
+
+
+
 
 /********************FOOTER******************************/
 footer p{
     display:inline;
 }
+footer{
+    clear:both;
+    margin-right:30%;
+    margin-left:30%;
+}
+
+/* Easy Slider Jquery plugin, found at http://cssglobe.com/easy-slider-17-numeric-navigation-jquery-slider/ */
+#container{	
+    background:#fff;
+    margin:0;
+    position:relative;
+    text-align:left;
+    width:auto;
+    background:#fff;		
+    margin-bottom:2em;
+    float:left;
+}	
+#content{
+    position:relative;
+}    
+            
+/* image replacement */
+.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+    margin:0;
+    padding:0;
+    display:block;
+    overflow:hidden;
+    text-indent:-8000px;
+    }
+/* // image replacement */
+
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+#slider2{margin-top:1em;}
+#slider li, #slider2 li{ 
+    /* 
+            define width and height of list item (slide)
+            entire slider area will adjust according to the parameters provided here
+    */ 
+    width:600px;
+    height:600px;
+    overflow:hidden; 
+        }	
+#prevBtn, #nextBtn,
+#slider1next, #slider1prev{ 
+        display:block;
+        width:30px;
+        height:77px;
+        position:absolute;
+        left:-30px;
+        top:71px;
+        z-index:1000;
+        }	
+#nextBtn, #slider1next{ 
+        left:696px;
+        }														
+#prevBtn a, #nextBtn a,
+#slider1next a, #slider1prev a{  
+        display:block;
+        position:relative;
+        width:30px;
+        height:77px;
+        background:url(../images/btn_prev.gif) no-repeat 0 0;	
+        }	
+#nextBtn a, #slider1next a{ 
+        background:url(../images/btn_next.gif) no-repeat 0 0;	
+        }	
+
+/* numeric controls */	
+
+ol#controls{
+        margin:1em 0;
+        padding:0;
+        height:28px;	
+        }
+ol#controls li{
+        margin:0 10px 0 0; 
+        padding:0;
+        float:left;
+        list-style:none;
+        height:28px;
+        line-height:28px;
+        }
+ol#controls li a{
+        float:left;
+        height:28px;
+        line-height:28px;
+        border:1px solid #ccc;
+        background:#DAF3F8;
+        color:#555;
+        padding:0 10px;
+        text-decoration:none;
+        }
+ol#controls li.current a{
+        background:#5DC9E1;
+        color:#fff;
+        }
+ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+
+/* // Easy Slider */
