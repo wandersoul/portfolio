@@ -8,10 +8,11 @@
         ?>
         <!--CSS link for project -->
         <link rel="stylesheet" type="text/css" href="css/stylo.css" media="screen">
-        <!--NOT IN USE trial for loading a different style sheet based on screen width
-        <link rel="stylesheet" type="text/css" media="screen and (max-width:800px)" href="css\stylo.css">
-        -->
+        <!--Theme Roller link for CSS -->
+        <link src="//ajax.googleopis.com/ajax/libs/jqueryui/1.10.3/themes/vader/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        
         <!--JavaScript + JQuery sources-->
+        <script src="//ajax.googleopis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/easySlider1.7.js"></script>

@@ -6,7 +6,7 @@
 ?>
 <section class="main">
     <h2>Marc Anderson</h2>
-    <!-- Current Image of You -->
+    <!-- Current Image of Myself -->
     <img id="left" src="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/image/marc1.png" alt="Image of Marc Anderson, handsome devil that he is."/>
     <!-- Bio section, interests, resume? -->
     <div id="right">
