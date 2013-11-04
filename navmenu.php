@@ -5,6 +5,7 @@ $about = "/~200235076/AdvWebPro/portfolio/about.php";
 $projects = "/~200235076/AdvWebPro/portfolio/projects.php";
 $services = "/~200235076/AdvWebPro/portfolio/services.php";
 $contact = "/~200235076/AdvWebPro/portfolio/contact.php";
+$business = "/~200235076/AdvWebPro/portfolio/business.php";
 
 // Generate the permanent navigation menu, match each url against 
 echo '<nav>';
@@ -49,7 +50,14 @@ echo '<nav>';
         //finish the rest of the nav link
         echo'><a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/contact.php">Contact</a></li>';
         
-                
+        //Business
+        echo '<li';
+        //check if the current site matches the current nav option
+        if( $_SERVER['PHP_SELF'] == $business )
+            {echo ' class="current"';} //if it does, give it class "current"
+        //finish the rest of the nav link
+        echo'><a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/business.php">Business Contacts</a></li>';
+        
         //GitHub
         echo '<li';
         //finish the rest of the nav link
