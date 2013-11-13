@@ -1,7 +1,12 @@
 <?php
-//show a form for the user to submit
-// Start the session
-session_start();
+    //Set the page title
+    $page_title = 'Business Contacts';
+    // Insert the page header
+    require_once('header.php');
+    require_once('connect_vars.php');
+?>
+<section class="main">
+<?php
 // If the session vars aren't set, try to set them with the stored cookie
 if (!isset($_SESSION['user_id'])) {
     
@@ -24,7 +29,7 @@ if (!isset($_SESSION['user_id'])) {
         if (!empty($user_username) && !empty($user_password)) {
             // Look up the username and password in the database
             $stmt = mysqli_stmt_init($dbc);
-            mysqli_stmt_prepare($stmt, 'SELECT user_id, user_name, first_name, last_name, permission FROM business_users WHERE user_name = ? AND pass = ?');
+            mysqli_stmt_prepare($stmt, 'SELECT user_id, user_name, first_name, last_name, permission FROM buisness_users WHERE user_name = ? AND pass = ?');
             mysqli_stmt_bind_param($stmt, "ss", $user_username, $user_password);
             mysqli_stmt_execute($stmt);
             /* bind result in variables */
@@ -66,7 +71,7 @@ if (!isset($_SESSION['user_id'])) {
 if (empty($_SESSION['user_id'])) {
     echo '<section id="system"><h2>System: </h2><p id=sys_message>'.$system_message.'</p></section>';
 ?>
-<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+<form method="post" action="log.php">
     <fieldset>
         <legend>Log In</legend>
         <label for="username">Username:</label>
@@ -83,6 +88,11 @@ else {
     // Confirm the successful log-in
     $system_message = 'Login successful!';
     echo '<section id="system"><h2>System: </h2><p id=sys_message>'.$system_message.'</p></section>';
-    echo '<a href></a>';
+    echo '<p>You may now proceed to the <a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/business.php">contacts table</a>';
 }
+?>
+</section>
+<?php
+//close the page
+require_once('footer.php');
 ?>

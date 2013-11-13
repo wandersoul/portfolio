@@ -6,6 +6,8 @@
         <?php
             echo '<title>Portfolio - ' . $page_title . '</title>';
         ?>
+        <!--Icon File-->
+        <link rel="icon" href="images/favicon.ico" />
         <!--CSS link for project -->
         <link rel="stylesheet" type="text/css" href="css/stylo.css" media="screen">
         <!--Theme Roller link for CSS -->
@@ -34,5 +36,7 @@
         <h1>Marc Anderson's Portfolio Site</h1>   
 <?php
 require_once('navmenu.php');
+//Don't stop the party
+session_start();
 ?>
     </header>
