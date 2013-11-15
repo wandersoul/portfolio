@@ -20,13 +20,14 @@ else
 {
   $id = trim($_POST['id']);
 };
+$dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 //query to find the contact information
 $stmt = mysqli_stmt_init($dbc);
 mysqli_stmt_prepare($stmt, 'SELECT * FROM business_contacts WHERE contact_id = ?');
 mysqli_stmt_bind_param($stmt, "i", $id);
 mysqli_stmt_execute($stmt);
 /* set the variables with those database fields */
-mysqli_stmt_bind_result($stmt, $contact_id, $contac_name, $first_name, $last_name, $phone, $email);
+mysqli_stmt_bind_result($stmt, $contact_id, $contact_name, $first_name, $last_name, $phone, $email);
 // Make sure contact IS valid
 if((mysqli_stmt_fetch($stmt))=== TRUE){
     //Check if the form been submitted 
@@ -51,7 +52,7 @@ if((mysqli_stmt_fetch($stmt))=== TRUE){
                 mysqli_stmt_close($stmt);
                 }
                 //after either selections, provide way back to the table
-                echo'<p>Back to <a href="contact_new.php>Contacts</a></p>';
+                echo'<p>Back to <a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/business.php">Contacts</a></p>';
     }
     else{
         //form has not been submitted, display a reminder to user

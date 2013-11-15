@@ -15,8 +15,8 @@ echo '<thead>
         <th>Last Name</th> 
         <th>Phone</th>
         <th>Email</th>
-        <th>Edit Contact</th>
-        <th>Delete Contact</th>
+        <th>Edit Links</th>
+        <th>Delete Links</th>
     </tr>
 </thead>
 <tbody>';
@@ -34,7 +34,7 @@ while ($row = mysqli_fetch_array($data)){
           </tr>';
 }
 echo'<tr>
-        <td>Create a new <a href="contact_new.php>Contact</a></td>
+        <td>Create a new <a href="contact_new.php">contact</a></td>
     </tr>';
 //finish off the table
 echo '</tbody>
