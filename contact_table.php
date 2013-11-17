@@ -4,7 +4,7 @@ require_once('connect_vars.php');
 $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 // Retrieve all business contacts 
 // this query does also not use user input
-$contact_info = 'SELECT contact_id, CONCAT(first_name," ",last_name) AS full_name, first_name, last_name, phone, email FROM business_contacts';
+$contact_info = 'SELECT contact_id, CONCAT(first_name," ",last_name) AS full_name, first_name, last_name, phone, email FROM business_contacts ORDER BY last_name';
 $data = mysqli_query($dbc, $contact_info);
 echo '<table id="contacts">';
 //table headers
