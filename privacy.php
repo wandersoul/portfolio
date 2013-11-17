@@ -1,4 +1,9 @@
 <?php
+/*  File name: privacy.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page is the display page for Marc's privacy policy
+ */
     //Set the page title
     $page_title = 'Home';
     // Insert the page header

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!--Website by Marc Anderson, Personal Portfolio Site-->
+<!--Included from other main section pages-->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

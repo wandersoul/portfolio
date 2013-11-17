@@ -1,4 +1,11 @@
 <?php
+/*  File name: index.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page provides a form filled with the fields from the database
+ *  Upon the success of filling in the required fields, the database will update the changes to the contact
+ *  and provide a link back to the table.
+ */
     //Set the page title
     $page_title = 'Edit a Contact';
     // Insert the page header

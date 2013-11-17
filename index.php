@@ -1,4 +1,11 @@
 <?php
+/*  File name: index.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This is the default page for the portfolio site, 
+ *  it includes a nav bar, image slider for my work, a footer and a 
+ *  keep connected section.
+ */
     //Set the page title
     $page_title = 'Home';
     // Insert the page header

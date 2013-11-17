@@ -1,4 +1,5 @@
 <?php
+//included in the header of almost every page
 //set variables for path names
 $index = "/~200235076/AdvWebPro/portfolio/index.php";
 $about = "/~200235076/AdvWebPro/portfolio/about.php";

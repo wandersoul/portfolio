@@ -1,4 +1,9 @@
 <?php
+/*  File name: index.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page displays projects for viewing and examples of Marc's work
+ */
     //Set the page title
     $page_title = 'Home';
     // Insert the page header

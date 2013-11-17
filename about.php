@@ -1,4 +1,11 @@
 <?php
+/*  File name: about.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This is the page for the about section of the site
+ *  It includes information about Marc Anderson.
+ */
+
     //Set the page title
     $page_title = 'About';
     // Insert the page header

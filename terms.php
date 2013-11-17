@@ -1,4 +1,9 @@
 <?php
+/*  File name: terms.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page displays Marc Anderson's terms of use policy
+ */
     //Set the page title
     $page_title = 'Home';
     // Insert the page header

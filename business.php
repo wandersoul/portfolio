@@ -1,4 +1,13 @@
 <?php
+/*  File name: business.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This is the section of the site for business contacts
+ *  Users will be redirected to the login page if they do not have an authenticated session
+ *  Upon successful login, the contacts table will be shown with links to the edit, new and delete, logout parts of the site.
+ */
+
+
     //Set the page title
     $page_title = 'Business Contacts';
     // Insert the page header

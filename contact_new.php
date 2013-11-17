@@ -1,4 +1,11 @@
 <?php
+/*  File name: contact_new.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page provides the user with a method to add new contacts to the list.
+ *  Upon successfully filling in the required fields and submission, the database will enter in
+ *  a new contact for display, providing a link back to the table
+ */
     //Set the page title
     $page_title = 'Create a Contact';
     // Insert the page header

@@ -1,3 +1,4 @@
+<!-- Included from other main section pages-->
         <footer>
                 <!-- Terms of Use-->
                 <p><a href="http://webdesign4.georgianc.on.ca/~200235076/AdvWebPro/portfolio/terms.php">Terms of Use</a></p>

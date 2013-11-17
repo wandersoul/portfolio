@@ -1,4 +1,9 @@
 <?php
+/*  File name: contact.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page provides the user with the keep connected tab, and a way to email Marc directly!
+ */
     //Set the page title
     $page_title = 'Contact';
     // Insert the page header

@@ -117,6 +117,10 @@ nav ul li a:active /* selected link */
 {   color:#FFFFFF;
     margin:0;
     padding:0;}
+/****************CONTACT TABLE***************************/
+table#contacts tbody tr.contact:hover{
+    background-color:#3D8835;
+}
 /********************INDEX*******************************/
 #main{
     text-align: center;

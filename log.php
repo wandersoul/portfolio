@@ -1,4 +1,10 @@
 <?php
+/*  File name: log.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page provides the user a form with which to log in. 
+ *  Upon successful entry of a matching password and user name, provides a link back to the contact table
+ */
     //Set the page title
     $page_title = 'Business Contacts';
     // Insert the page header

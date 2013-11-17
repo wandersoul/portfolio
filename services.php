@@ -1,4 +1,9 @@
 <?php
+/*  File name: services.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page provides descriptions of the various services that Marc Anderson provides
+ */
     //Set the page title
     $page_title = 'Services';
     // Insert the page header

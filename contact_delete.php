@@ -1,4 +1,9 @@
 <?php
+/*  File name: contact_delete.php
+ *  Author: Marc Anderson
+ *  Website Name: Marc Anderson's Porfolio Site
+ *  File decription: This page asks the user through a radio button form wether or not that actually intend to delete the contact entry.
+ */
     //Set the page title
     $page_title = 'Delete a Contact';
     // Insert the page header
